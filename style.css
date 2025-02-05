@@ -38,3 +38,10 @@ body{
     align-items: center;
     gap: 300px;
 }
+
+h2{
+    color: rgb(46, 155, 218);
+}
+i{
+    color: rgb(46, 155, 218);
+}
