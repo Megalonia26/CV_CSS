@@ -1,15 +1,34 @@
 body{
-    margin: 0;
-    padding: 0;
+    width: 800px;
+    margin: auto;
 }
-
 .container{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
 }
 
-.left_containerr{
-    width: 100px;
-    height: 500px;
-    background: black;
+.container .left_container{
+    background: grey;
+}
+
+.container .left_container p{
+    text-align: center;
+}
+
+.container .left_container .img_container img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.container .left_container,
+.container .right_container{
+    border-radius: 50px;
+}
+
+.container .right_container .experience1,
+.container .right_container .experience4{
+    display: flex;
+    align-items: center;
+    gap: 300px;
 }
