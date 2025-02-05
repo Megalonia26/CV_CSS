@@ -9,16 +9,22 @@ body{
 }
 
 .container .left_container{
-    background: grey;
+    background: rgb(192, 187, 187);
+}
+
+.container .left_container .img_container img{
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.container .left_container h2{
+    margin-left: 10px;
 }
 
 .container .left_container p{
     text-align: center;
-}
-
-.container .left_container .img_container img{
-    width: 300px;
-    border-radius: 50%;
 }
 
 .container .left_container,
